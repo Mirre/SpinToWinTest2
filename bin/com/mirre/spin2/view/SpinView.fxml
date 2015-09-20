@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane fx:id="gridPane" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mirre.spin2.view.SpinViewController">
+   <columnConstraints>
+      <ColumnConstraints minWidth="150.0" prefWidth="100.0" />
+      <ColumnConstraints minWidth="300.0" />
+      <ColumnConstraints minWidth="150.0" prefWidth="100.0" />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints minHeight="150.0" prefHeight="30.0" />
+      <RowConstraints minHeight="300.0" />
+      <RowConstraints minHeight="150.0" prefHeight="150.0" />
+   </rowConstraints>
+   <children>
+      <Button fx:id="readyButton" mnemonicParsing="false" text="Ready" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+      <ImageView fx:id="imageView" fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+      <ImageView fx:id="pointImage" fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="TOP" />
+      <Label fx:id="idLabel" text="Label" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+   </children>
+</GridPane>
